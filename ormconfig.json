@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "master",
+  "password": "master",
+  "database": "curso_nest",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "dist/**/*.entity.js"
+  ]
+}
